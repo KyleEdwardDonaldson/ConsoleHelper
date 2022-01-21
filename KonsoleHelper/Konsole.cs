@@ -24,7 +24,8 @@ namespace KonsoleHelper
                 Console.WriteLine(repeatedLine);
             }
 
-            WriteLines(linesAfter, linesAfter: 0);
+            if (linesAfter > 0)
+                WriteLines(linesAfter, linesAfter: 0);
         }
 
         public static void WriteLine(string message, int linesAfter = 1)
