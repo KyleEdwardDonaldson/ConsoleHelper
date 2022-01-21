@@ -2,7 +2,7 @@
 
 namespace KonsoleHelper
 {
-    public static class KonsoleHelper
+    public static class Konsole
     {
         public static void WriteLine(string message, int linesAfter = 1)
         {
