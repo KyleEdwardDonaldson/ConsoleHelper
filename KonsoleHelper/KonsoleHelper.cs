@@ -2,9 +2,9 @@
 
 namespace KonsoleHelper
 {
-    public class KonsoleHelper
+    public static class KonsoleHelper
     {
-        public void WriteLine(string message, int linesAfter = 1)
+        public static void WriteLine(string message, int linesAfter = 1)
         {
             // Writes message into console
             Console.WriteLine(message);
@@ -16,7 +16,7 @@ namespace KonsoleHelper
             }
         }
 
-        public T AskForInput<T>(string request, string invalidInputMessage = "Unable to parse input.")
+        public static T AskForInput<T>(string request, string invalidInputMessage = "Unable to parse input.")
         {
             T userInputAsT = (T)Activator.CreateInstance(typeof(T));
             bool successfulCast = false;
