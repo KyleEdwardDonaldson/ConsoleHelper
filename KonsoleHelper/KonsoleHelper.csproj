@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/KyleEdwardDonaldson/KonsoleHelper/</RepositoryUrl>
     <PackageId>KonsoleHelper</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
 </Project>
