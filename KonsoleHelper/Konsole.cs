@@ -36,7 +36,7 @@ namespace KonsoleHelper
 
         public static T AskForInput<T>(string request, string invalidInputMessage = "Unable to parse input.", int linesAfter = 1)
         {
-            T userInputAsT = (T)Activator.CreateInstance(typeof(T));
+            T userInputAsT = (T)"0";
             bool successfulCast = false;
             while (!successfulCast)
             {
