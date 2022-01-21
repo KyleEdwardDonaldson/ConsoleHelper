@@ -4,7 +4,7 @@ namespace KonsoleHelper
 {
     public static class Konsole
     {
-        public static void WriteLines(string[] messages, int linesInBetween = 0)
+        public static void WriteLines(string[] messages, int linesInBetween = 0, int linesAfter = 1)
         {
             foreach(var message in messages)
             {
@@ -17,12 +17,14 @@ namespace KonsoleHelper
             }
         }
 
-        public static void WriteLines(int numberOfLines, string repeatedLine = "")
+        public static void WriteLines(int numberOfLines, string repeatedLine = "", int linesAfter = 1)
         {
             for (var i = 0; i < numberOfLines; i++)
             {
                 Console.WriteLine(repeatedLine);
             }
+
+            WriteLines(linesAfter, linesAfter: 0);
         }
 
         public static void WriteLine(string message, int linesAfter = 1)
