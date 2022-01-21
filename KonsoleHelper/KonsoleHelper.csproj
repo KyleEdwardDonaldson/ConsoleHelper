@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kyle Donaldson</Authors>
+    <Company>kedonaldson.com</Company>
+    <Description>A library of methods I commonly use when creating console applications - to save me some time.</Description>
+    <RepositoryUrl>https://github.com/KyleEdwardDonaldson/KonsoleHelper/</RepositoryUrl>
+    <PackageId>KonsoleHelper</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>

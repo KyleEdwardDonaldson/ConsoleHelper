@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ConsoleHelper
+namespace KonsoleHelper
 {
-    public class ConsoleHelper
+    public class KonsoleHelper
     {
         public void WriteLine(string message, int linesAfter = 1)
         {
