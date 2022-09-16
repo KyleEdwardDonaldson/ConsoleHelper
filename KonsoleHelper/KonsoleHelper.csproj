@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>Kyle Donaldson</Authors>
     <Company>kedonaldson.com</Company>
     <Description>A library of methods I commonly use when creating console applications - to save me some time.</Description>
